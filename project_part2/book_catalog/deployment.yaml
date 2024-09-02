@@ -19,7 +19,7 @@ spec:
         - containerPort: 8000
         env:
         - name: DATABASE_URL
-          value: "postgresql://username:password@postgres-service:5432/dbname"
+          value: "postgresql://dbweek7_user:xBWyfXX9J2a3jLLxfXUJa9c3nIxJGZOW@dpg-craqhqtds78s73d8i9gg-a.oregon-postgres.render.com/dbweek7"
 ---
 apiVersion: v1
 kind: Service
